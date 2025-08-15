@@ -40,7 +40,7 @@ export default function CallsScreen() {
                     item.status === 'missed'
                       ? 'arrow-down'
                       : item.status === 'incoming'
-                      ? 'arrow-down'
+                      ? 'arrow-up'
                       : 'arrow-up'
                   }
                   size={16}
@@ -51,7 +51,7 @@ export default function CallsScreen() {
             </View>
             <TouchableOpacity>
               <Ionicons
-                name={item.type === 'outgoing' ? 'call' : 'videocam'}
+                name={item.type === 'incoming' ? 'call' : 'videocam'}
                 size={24}
                 color="#25D366"
               />
