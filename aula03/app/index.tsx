@@ -80,7 +80,7 @@ export default function index() {
           onMouseLeave={e => e.currentTarget.style.backgroundColor = '#fff'}
         >
           <ButtonIcon as={MessageCircle} className="text-success-800" />
-          <Text className="text-success-800 text-xs mt-1 ml-2">Mensagem</Text>
+          <Text className="text-success-800 text-xs mt-1 ml-2"></Text>
         </Button>
         <Button
           className="bg-white rounded-full"
@@ -90,7 +90,7 @@ export default function index() {
           onClick={() => router.push("/calls")}
         >
           <ButtonIcon as={Phone} className="text-success-800" />
-          <Text className="text-success-800 text-xs mt-1 ml-2">Ligações</Text>
+          <Text className="text-success-800 text-xs mt-1 ml-2"></Text>
         </Button>
         <Button
           className="bg-white rounded-full"
@@ -99,7 +99,7 @@ export default function index() {
           onMouseLeave={e => e.currentTarget.style.backgroundColor = '#fff'}
         >
           <ButtonIcon as={Camera} className="text-success-800" />
-          <Text className="text-success-800 text-xs mt-1 ml-2">Câmera</Text>
+          <Text className="text-success-800 text-xs mt-1 ml-2"></Text>
         </Button>
         <Button
           className="bg-white rounded-full"
@@ -109,7 +109,7 @@ export default function index() {
           onClick={() => router.push("/settings")}
         >
           <ButtonIcon as={Settings} className="text-success-800" />
-          <Text className="text-success-800 text-xs mt-1 ml-2">Configurações</Text>
+          <Text className="text-success-800 text-xs mt-1 ml-2"></Text>
         </Button>
       </Box>
     </Box>
